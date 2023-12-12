@@ -5,7 +5,6 @@ import Terminal from "@/components/Terminal"
 import "@fontsource/fira-code/400.css"
 import "@fontsource/fira-code/600.css"
 import { useSettings } from "@/context/settings"
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
 	const { settings } = useSettings()
