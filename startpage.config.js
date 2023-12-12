@@ -1,5 +1,5 @@
 const defaultConfig = {
-	username: "Excalith",
+	username: "EmojiPati",
 	theme: {
 		backgroundColor: "#121317",
 		windowColor: "#1e212b",
@@ -112,50 +112,50 @@ const defaultConfig = {
 				links: [
 					{
 						name: "Portfolio",
-						url: "https://cancellek.com",
-						icon: "mdi:web"
+						url: "https://pati.is-a.dev",
+						icon: "simple-icons:aboutdotme"
 					},
 					{
-						name: "Keybase",
-						url: "https://keybase.io/",
-						icon: "fa-brands:keybase"
+						name: "ArtStation",
+						url: "https://www.artstation.com/emojipati",
+						icon: "fa-brands:artstation"
 					},
 					{
-						name: "GPT",
-						url: "https://chat.openai.com/",
-						icon: "simple-icons:openai"
+						name: "Github",
+						url: "https://github.com/emojipati",
+						icon: "fa-brands:square-github"
 					},
 					{
-						name: "OCI",
-						url: "https://www.oracle.com/cloud/",
-						icon: "simple-icons:oracle"
+						name: "Digital Ocean",
+						url: "https://cloud.digitalocean.com",
+						icon: "fa-brands:digital-ocean"
 					}
 				]
 			},
 			{
-				title: "Dev",
+				title: "Dev.",
 				color: "magenta",
 				align: "left",
 				links: [
 					{
-						name: "GitHub",
-						url: "https://github.com",
-						icon: "mdi:github"
+						name: "Linode",
+						url: "https://cloud.linode.com/",
+						icon: "fa-brands:linode"
 					},
 					{
-						name: "GitLab",
+						name: "Netlify",
 						url: "https://gitlab.com",
-						icon: "ph:gitlab-logo-simple-fill"
+						icon: "simple-icons:vuetify"
 					},
 					{
-						name: "Dev.to",
-						url: "https://dev.to",
-						icon: "material-symbols:logo-dev"
+						name: "Figma",
+						url: "https://www.figma.com/",
+						icon: "simple-icons:figma"
 					},
 					{
-						name: "Stack Overflow",
-						url: "https://stackoverflow.com/",
-						icon: "mdi:stack-overflow"
+						name: "Supabase",
+						url: "https://supabase.com/dashboard/",
+						icon: "simple-icons:supabase"
 					}
 				]
 			},
@@ -170,19 +170,19 @@ const defaultConfig = {
 						icon: "mdi:twitter"
 					},
 					{
-						name: "Mastodon",
-						url: "https://mastodon.social/",
-						icon: "ri:mastodon-fill"
+						name: "4chan",
+						url: "https://www.4chan.org/",
+						icon: "simple-icons:4chan"
 					},
 					{
-						name: "Reddit",
-						url: "https://reddit.com",
-						icon: "mdi:reddit"
+						name: "Misskey.dev",
+						url: "https://misskey.dev/@pati",
+						icon: "simple-icons:misskey"
 					},
 					{
-						name: "Polywork",
-						url: "https://polywork.com",
-						icon: "simple-icons:polywork"
+						name: "Discord",
+						url: "https://dsc.bio/emojipati",
+						icon: "simple-icons:discord"
 					}
 				]
 			},
