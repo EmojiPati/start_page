@@ -85,10 +85,10 @@ export default function Home() {
 					)}
 					<div className={`animate-fadeIn`}>
 						<Terminal />
-						<SpeedInsights />
 					</div>
 				</>
 			)}
+			<SpeedInsights />
 		</main>
 	)
 }
