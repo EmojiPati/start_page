@@ -193,7 +193,7 @@ const defaultConfig = {
 				links: [
 					{
 						name: "YouTube Music",
-						url: "https://youtubemusic.com",
+						url: "https://music.youtube.com",
 						icon: "simple-icons:youtubemusic"
 					},
 					{
