@@ -1,14 +1,13 @@
-import React, { useEffect, useState, useContext } from "react"
+import React, { useEffect, useState } from "react"
 import Head from "next/head"
-import { useSettings } from "@/context/settings"
 
 const Meta = () => {
 	const [title, setTitle] = useState("Start Page")
-	const { settings } = useSettings()
 
 	useEffect(() => {
-		setTitle(settings.username + " Start Page")
-	}, [settings.username])
+		// Başlığı sabit bir metin olarak ayarlandı.
+		setTitle("🐱‍💻 Home Page")
+	}, [])
 
 	return (
 		<Head>

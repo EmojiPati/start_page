@@ -44,7 +44,7 @@ const defaultConfig = {
 		timeFormat: "HH:mm",
 		dateFormat: "DD/MM/YYYY",
 		titleColor: "yellow",
-		image: "icon.svg",
+		image: "clear.png",
 		data: [
 			"Time: {time}",
 			"Date: {date}",
