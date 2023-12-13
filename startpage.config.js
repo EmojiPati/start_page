@@ -187,83 +187,73 @@ const defaultConfig = {
 				]
 			},
 			{
-				title: "Gaming",
+				title: "Fun",
 				color: "cyan",
 				align: "left",
 				links: [
 					{
-						name: "Polygon",
-						url: "https://polygon.com",
-						icon: "uil:polygon"
+						name: "YouTube Music",
+						url: "https://youtubemusic.com",
+						icon: "simple-icons:youtubemusic"
 					},
 					{
-						name: "IGN",
-						url: "https://ign.com",
-						icon: "mdi:currency-sign"
-					},
-					{
-						name: "RPS",
-						url: "https://rockpapershotgun.com/",
-						icon: "ph:toilet-paper-bold"
-					},
-					{
-						name: "80lv",
-						url: "https://80.lv/",
-						icon: "tabler:hand-rock"
+						name: "YouTube",
+						url: "https://youtube.com/",
+						icon: "simple-icons:youtube"
 					}
 				]
 			},
 			{
-				title: "Science",
+				title: "Anime & Manga",
 				color: "blue",
 				align: "left",
 				links: [
 					{
-						name: "PopSci",
-						url: "https://popsci.com/",
-						icon: "material-symbols:science"
+						name: "MangaDex",
+						url: "https://mangadex.com/",
+						icon: "simple-icons:mdbook"
 					},
 					{
-						name: "Space",
-						url: "fa6-solid:user-astronaut",
-						icon: "mdi:reddit"
+						name: "9Anime",
+						url: "https://9anime.to/",
+						icon: "arcticons:animeultima"
 					},
 					{
-						name: "NASA",
-						url: "https://blogs.nasa.gov/",
-						icon: "simple-icons:nasa"
+						name: "AniList",
+						url: "https://anilist.co/",
+						icon: "simple-icons:anilist"
 					},
 					{
-						name: "ESA",
-						url: "https://blogs.esa.int/",
-						icon: "mdi:black-mesa"
+						name: "Livechart",
+						url: "https://www.livechart.me/",
+						icon: "ph:calendar-fill"
 					}
 				]
 			},
 			{
-				title: "Tech",
+				title: "Random",
 				color: "yellow",
 				align: "left",
 				links: [
 					{
-						name: "TechCrunch",
-						url: "https://techcrunch.com/",
-						icon: "game-icons:techno-heart"
+						name: "CivitAI",
+						url: "https://civitai.com/",
+						icon: "pajamas:tanuki-ai"
 					},
 					{
-						name: "Verge",
-						url: "https://www.theverge.com/",
-						icon: "arcticons:verge"
+						name: "Modrinth",
+						url: "https://modrinth.com",
+						icon: "simple-icons:modrinth"
 					},
 					{
-						name: "It's Foss",
-						url: "https://itsfoss.com/",
-						icon: "ri:mastodon-fill"
+						name: "SatisF. Calculator",
+						url: "https://satisfactory-calculator.com/",
+						icon: "simple-icons:blueprint"
 					},
 					{
-						name: "9To5 Linux",
-						url: "https://9to5linux.com/",
-						icon: "uil:linux"
+						name: "Cloudflare",
+						url: "https://dash.cloudflare.com/",
+						icon: "simple-icons:cloudflare"
 					}
 				]
 			}
