@@ -1,5 +1,5 @@
-
 # Change Log
+
 All upcoming and notable changes to this project will be documented in this file.
 
 > **Warning**

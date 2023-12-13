@@ -17,42 +17,40 @@ You can check the working version from [here](https://excalith-start-page.vercel
 
 > **Warning** This is a demo version and will be updated regularly, which might break your configurations. It is not recommended to use this version for your daily browsing. Please refer to [wiki page](https://github.com/excalith/excalith-start-page/wiki/Getting-Started) for more information.
 
-
 ## Features
 
-- Filter links by typing in the prompt
-  - Quickly filter links by typing in the prompt. Hitting <kbd>Enter</kbd> will open all filtered links at once
-  - If nothing filtered, the text in prompt will use the default search engine for searching your input
-- Launch websites directly from the prompt. Just type the URL (ie. `github.com`)
-- Search websites with custom commands. For example, type `s some weird bug` to search StackOverflow for `some weird bug`
-- Wallpaper support through URL with blur and fade effects
-- Customizable Fetch UI for fetching browser and system data, including custom image support
-- Autosuggest and Autocomplete support just like `zsh` and `fish`
-- Cycle through filtered links back and forth
-- Multiple theme support (check all [available themes](./public/themes/))
-- Built-in configuration editor to easily edit and save your configuration
+-   Filter links by typing in the prompt
+    -   Quickly filter links by typing in the prompt. Hitting <kbd>Enter</kbd> will open all filtered links at once
+    -   If nothing filtered, the text in prompt will use the default search engine for searching your input
+-   Launch websites directly from the prompt. Just type the URL (ie. `github.com`)
+-   Search websites with custom commands. For example, type `s some weird bug` to search StackOverflow for `some weird bug`
+-   Wallpaper support through URL with blur and fade effects
+-   Customizable Fetch UI for fetching browser and system data, including custom image support
+-   Autosuggest and Autocomplete support just like `zsh` and `fish`
+-   Cycle through filtered links back and forth
+-   Multiple theme support (check all [available themes](./public/themes/))
+-   Built-in configuration editor to easily edit and save your configuration
 
 Please refer to [configuration](https://github.com/excalith/excalith-start-page/wiki/Configuration) page for more information.
 
 ### Built-In Commands
 
-- Show usage with `help` command (shows basic usage and your configured search shortcuts)
-- Show info with `fetch` command (time, date, system and browser data)
-- Update your configuration with `config` command
-  - `config help` - Displays config command usage
-  - `config import <url>` - Import configuration from a URL to your local storage
-  - `config theme` - Lists all [available themes](./public/themes/)
-  - `config theme <theme-name>` - Switches between themes and sets your local configuration
-  - `config edit` - Edit local configuration within editor
-  - `config reset` - Reset your configuration to default
+-   Show usage with `help` command (shows basic usage and your configured search shortcuts)
+-   Show info with `fetch` command (time, date, system and browser data)
+-   Update your configuration with `config` command
+    -   `config help` - Displays config command usage
+    -   `config import <url>` - Import configuration from a URL to your local storage
+    -   `config theme` - Lists all [available themes](./public/themes/)
+    -   `config theme <theme-name>` - Switches between themes and sets your local configuration
+    -   `config edit` - Edit local configuration within editor
+    -   `config reset` - Reset your configuration to default
 
 ### Key Bindings
 
-- Use <kbd>→</kbd> to auto-complete the suggestion
-- Cycle through filtered links using <kbd>TAB</kbd> and <kbd>SHIFT</kbd> + <kbd> TAB</kbd>
-- Clear the prompt quickly with <kbd>CTRL</kbd> + <kbd>C</kbd>
-- Close windows with <kbd>ESC</kbd>
-
+-   Use <kbd>→</kbd> to auto-complete the suggestion
+-   Cycle through filtered links using <kbd>TAB</kbd> and <kbd>SHIFT</kbd> + <kbd> TAB</kbd>
+-   Clear the prompt quickly with <kbd>CTRL</kbd> + <kbd>C</kbd>
+-   Close windows with <kbd>ESC</kbd>
 
 ## Using
 
@@ -77,14 +75,17 @@ Docker is another convenient way to host the start page. You can either use the 
 <br>
 
 Pull the latest image
+
 ```bash
 docker pull excalith/start-page:latest
 ```
 
 Run the image (change the port mapping of 8080 into something you want)
+
 ```bash
 docker run --name start-page --restart=always -p 8080:3000 -d excalith/start-page
 ```
+
 </details>
 
 <details>
@@ -92,14 +93,17 @@ docker run --name start-page --restart=always -p 8080:3000 -d excalith/start-pag
 <br>
 
 Pull the latest image
+
 ```bash
 docker pull ghcr.io/excalith/excalith-start-page:latest
 ```
 
 Run the image (change the port mapping of 8080 into something you want)
+
 ```bash
 docker run --name start-page --restart=always -p 8080:3000 -d ghcr.io/excalith/excalith-start-page
 ```
+
 </details>
 
 ### Remote Config Import
