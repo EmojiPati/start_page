@@ -123,7 +123,7 @@ const defaultConfig = {
 					{
 						name: "Github",
 						url: "https://github.com/emojipati",
-						icon: "fa-brands:github"
+						icon: "simple-icons:github"
 					},
 					{
 						name: "Digital Ocean",
